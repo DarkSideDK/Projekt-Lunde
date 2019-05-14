@@ -16,6 +16,17 @@
 	border-radius: 15px;
 	padding: 14px;
 	width: 50%;
+	}
+	
+.searchicon {
+	position: absolute;
+	top: 30px;
+	left: 255px;
+}
+
+.searchicon img {
+	width: 25px;
+	height: auto;
 }
 
 .menubar img {
