@@ -1,3 +1,18 @@
+* {font-family: Microsoft New Tai Lue;
+}
+
+h2 {text-align: center;
+	color: #d1e6cc;
+}
+
+h3 {text-align: center;
+	color: gray;
+}
+
+hr {
+	width: 80%;
+}
+
 .menubar {
 	position: relative;
 	top: 10px;
@@ -42,19 +57,10 @@
 	padding-left: 10px;
 }
 
-.logo {
-	margin-top: 8%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 91%;
-	max-width: 100%;
-	height: auto;
-	border-radius: 15px;
-}
+///* Categories *///
 
 .grid-container img {
-	width: 160px;
+	width: 10px;
 	height: auto;
 }
 
@@ -62,9 +68,9 @@
 	position: relative;
 	top: 30px;
 	display: grid;
-	grid-template-columns: auto auto;
-	grid-gap: -6px;
-	padding: 10px;
+	grid-template-columns: auto auto auto;
+	grid-gap: 0px;
+	padding: -40px;
 }
 
 .grid-container > div {
@@ -73,13 +79,15 @@
   font-size: 30px;
 }
 
+//* Social Media Buttons *//
+
 .some {
 	position: relative;
-	top: 45px;
-	left: 34%;
-	margin: auto;
+	float: left;
+	top: 90px;
+	left: 50%;
 	display: inline;
-	padding: 0px;
+	padding: 15px;
 	
 }
 
@@ -95,6 +103,8 @@ padding-right: 8px;
 	height: auto;
 }
 
+//* Line break *//
+
 hr {
 	position: relative;
 	top: 10px;
@@ -102,6 +112,40 @@ hr {
 	color: gray;
 }
 
+///* Slideshow *///
 
+.mySlides {
+	display:none
+}
 
+.w3-left, .w3-right, .w3-badge {
+	cursor:pointer;
+	display: inline;
+}
+.w3-left {
+	z-index: 1;
+	position: relative;
+top: -200px;}
 
+.w3-right {
+	z-index: 1;
+	position: relative;
+	float: right;
+top: -200px;}
+
+.w3-badge {height:13px;width:13px;padding:0}
+
+.mySlides {
+	border-radius: 10px;
+}
+
+.border {
+	border: solid;
+	border-color: gray;
+	border-radius: 15px;
+}
+
+.container {
+	padding: 10px;
+	text-align: center;
+}
