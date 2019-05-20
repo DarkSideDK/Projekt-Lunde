@@ -102,6 +102,12 @@ a {text-decoration: none;}
 	
 }
 
+.some img {
+	width: 50px;
+	height: auto;
+}
+
+
 .fb {
 padding-right: 8px;
 }
@@ -181,4 +187,50 @@ p {
 	font-family: Microsoft New Tai Lue;
 	color: gray;
 }
+
+/* Toolbar */
+
+.searchfield2 {
+	position: fixed;
+	left: 140px;
+	border-style: solid;
+	border-color: gray;
+	top: 775px;
+	border-radius: 15px;
+	padding: 2px;
+	width: 25%;
+	}
 	
+.some2 {
+	position: fixed;
+	right: 25px;
+	top: 760px;
+	display: inline;
+	padding: 15px;
+	
+}
+
+.some2 img {
+	width: 25px;
+	height: auto;
+}
+
+.toolbar {
+	background-color: white;
+	display: inline;
+}
+
+.searchicon2 {
+	position: fixed;
+	top: 780px;
+	left: 220px;
+}
+
+.searchicon2 img {
+	width: 5px;
+	height: auto;
+}
+
+.box {
+	color: white;	
+}
