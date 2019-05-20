@@ -1,8 +1,10 @@
 * {font-family: Microsoft New Tai Lue;
 }
 
+body {background-color: rgb(175, 203, 174, 0.4);}
+
 h2 {text-align: center;
-	color: #d1e6cc;
+	color: #176c30;
 }
 
 h3 {text-align: center;
@@ -12,6 +14,10 @@ h3 {text-align: center;
 hr {
 	width: 80%;
 }
+
+a {text-decoration: none;}
+
+/* Top Nav Bar */
 
 .menubar {
 	position: relative;
@@ -57,7 +63,7 @@ hr {
 	padding-left: 10px;
 }
 
-///* Categories *///
+///* Categories / Gitter *///
 
 .grid-container img {
 	width: 10px;
@@ -69,7 +75,7 @@ hr {
 	top: 30px;
 	display: grid;
 	grid-template-columns: auto auto auto;
-	grid-gap: 0px;
+	grid-gap: 10px;
 	padding: -40px;
 }
 
@@ -77,6 +83,11 @@ hr {
   text-align: center;
   padding: 1px 0;
   font-size: 30px;
+  border-radius: 15px;
+}
+
+.grid-container img {
+  border-radius: 10px;
 }
 
 //* Social Media Buttons *//
@@ -125,13 +136,13 @@ hr {
 .w3-left {
 	z-index: 1;
 	position: relative;
-top: -200px;}
+top: -150px;}
 
 .w3-right {
 	z-index: 1;
 	position: relative;
 	float: right;
-top: -200px;}
+top: -150px;}
 
 .w3-badge {height:13px;width:13px;padding:0}
 
@@ -141,11 +152,33 @@ top: -200px;}
 
 .border {
 	border: solid;
-	border-color: gray;
+	border-color: rgb(175, 203, 174, 0.4);
 	border-radius: 15px;
 }
 
+/* Tekst boks på billeder */
+
+.tinybox {background-color: #AFCBAE;
+border-radius: 15px;}
+
 .container {
+	font-family: Microsoft New Tai Lue;
+	position: relative;
+	top: 10px;
 	padding: 10px;
 	text-align: center;
 }
+
+.containertiny {
+	font-family: Microsoft New Tai Lue;
+	font-size: small;
+	position: relative;
+	top: -5px;
+	text-align: center;
+}
+
+p {
+	font-family: Microsoft New Tai Lue;
+	color: gray;
+}
+	
