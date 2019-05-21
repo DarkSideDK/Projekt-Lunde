@@ -2,17 +2,99 @@
 
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-
-  <title></title>
-  <meta name="description" content="Lunde By App">
-  <meta name="author" content="Gruppe 24">
-
-  <link rel="stylesheet" href="css/stylesheet.css">
-
+	<meta charset="utf-8">
+	<title>Livet i Lunde</title>
+	<meta name="description" content="Lunde By App">
+	<meta name="author" content="Gruppe 24">
+	<link rel="icon" href="images/logo.png">	
+	<link rel="stylesheet" href="css/stylesheet.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
+	<script src="js/scripts.js"></script>
+	<div class="menubar">
+		<div id="myNav" class="overlay">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<div class="overlay-content">
+		<a href="#">Kontakt</a>
+		<a href="#">Find Rundt</a>
+		<a href="#">Kalender</a>
+		</div>
+		</div>
+		<span onclick="openNav()"><img src="images/menu.png" alt="menuikon" class="menu"></span>
+		<a href="index.html"><img src="images/logo.png" alt="lundelogo" class="icon2"></a>
+	</div>
+	<br>
+	<hr>
+	<div class="month">      
+  <ul>
+    <li class="prev">&#10094;</li>
+    <li class="next">&#10095;</li>
+    <li>
+      August<br>
+      <span style="font-size:18px">2017</span>
+    </li>
+  </ul>
+</div>
+
+<ul class="weekdays">
+  <li>Mo</li>
+  <li>Tu</li>
+  <li>We</li>
+  <li>Th</li>
+  <li>Fr</li>
+  <li>Sa</li>
+  <li>Su</li>
+</ul>
+
+<ul class="days">  
+  <li>1</li>
+  <li>2</li>
+  <li>3</li>
+  <li>4</li>
+  <li>5</li>
+  <li>6</li>
+  <li>7</li>
+  <li>8</li>
+  <li>9</li>
+  <li><span class="active">10</span></li>
+  <li>11</li>
+  <li>12</li>
+  <li>13</li>
+  <li>14</li>
+  <li>15</li>
+  <li>16</li>
+  <li>17</li>
+  <li>18</li>
+  <li>19</li>
+  <li>20</li>
+  <li>21</li>
+  <li>22</li>
+  <li>23</li>
+  <li>24</li>
+  <li>25</li>
+  <li>26</li>
+  <li>27</li>
+  <li>28</li>
+  <li>29</li>
+  <li>30</li>
+  <li>31</li>
+</ul>
+	<br clear="left">
+	<div class="box">
+	<div class="toolbar">
+		<input type="text" placeholder="Søg" class="searchfield2">
+		<a href="search"><img src="images/search.png" alt="searchicon" class="searchicon2" width="15"></a>
+		<div class="some2">
+			<a href="https://www.facebook.com/livetilunde/"><img src="images/fb.png" class="fb"></a>
+			<a href="https://www.instagram.com/livetilunde/"><img src="images/ig.png" class="ig"></a>
+			<a href="index.html"><img src="images/go-back.png" class="back" width="150"></a>
+		</div>
+	</div>
+	</div>
+	
+
   <script src="js/scripts.js"></script>
 </body>
 </html>

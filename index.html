@@ -14,16 +14,22 @@
 <body>
 	<script src="js/scripts.js"></script>
 	<div class="menubar">
-		<img src="images/menu.png" alt="menuikon" class="menu">
+		<div id="myNav" class="overlay">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<div class="overlay-content">
+			<a href="kontakt.html">Kontakt</a>
+			<a href="#">Find Rundt</a>
+			<a href="#">Kalender</a>
+		</div>
+		</div>
+		<span onclick="openNav()"><img src="images/menu.png" alt="menuikon" class="menu"></span>
 		<input type="text" placeholder="Søg" class="searchfield">
-		<img src="images/logo.png" alt="lundelogo" class="icon">
+		<a href="index.html"><img src="images/logo.png" alt="lundelogo" class="icon"></a>
 	</div>
-	<div>
-		<img src="images/search.png" alt="searchicon" class="searchicon" width="25">
-	</div>
-	
+		
 	<hr>
 	<div class="headline">
+	<br>
 			<h2>Livet i Lunde</h2>
 		</div>
 	<div class="tinybox">
@@ -39,9 +45,7 @@
 					<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
 					<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
 					</a>
-					<div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)"><button>&#10094;</button></div>
-					<div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)"><button>&#10095;</button></div>
-				</div>
+		</div>
 		</div>
 		</div>
 	</div>
