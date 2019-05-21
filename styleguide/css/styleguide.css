@@ -1,0 +1,54 @@
+body {
+	background-color: rgb(125, 0, 125, 0.5);
+}
+
+p {
+	color: white;
+}
+
+.color1 {
+	background-color: #1D1D1B
+}
+
+.color2 {
+	background-color: #D1E6CC
+}
+.color3 {
+	background-color: #176C30
+}
+.color4 {
+	background-color: #194423
+}
+.color5 {
+	background-color: #FFFFFF
+}
+
+
+
+
+ul {
+	float: left;
+  list-style-type: none;
+  margin: 15px;
+  padding: 10px;
+  
+}
+
+li a {
+  padding-left: 15px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  display: block;
+  width: 200px;
+  background-color: #dddddd;
+}
+
+.mainarea {
+	float: left;
+	position: relative;
+	top: 25px;
+}
+
+.icons {
+	float: left;
+}
