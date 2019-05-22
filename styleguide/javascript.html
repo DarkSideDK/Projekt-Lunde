@@ -1,0 +1,154 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Livet i Lunde - Styleguide</title>
+	<meta name="description" content="Lunde By App">
+	<meta name="author" content="Gruppe 24">
+	<link rel="icon" href="images/logo.png">	
+	<link rel="stylesheet" href="css/styleguide.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<ul>
+		<li><a href="index.html">Colors</a></li>
+		<li><a href="fonts.html">Fonts</a></li>
+		<li><a href="icons.html">Icons</a></li>
+		<li><a href="javascript.html">Javascript</a></li>
+		<li><a href="listforms.html">Lists & Forms</a></li>
+		<li><a href="toolbar.html">Toolbars</a></li>
+	</ul>
+	<div class="mainarea">
+	<h2><u> Slideshow</u></h2><br>
+	<img src="images/slideshow.png"><br><br>
+	<h3> CSS </h3>
+	.mySlides {<br>
+	display:none<br>
+}<br><br>
+
+.w3-left, .w3-right, .w3-badge {<br>
+	cursor:pointer;<br>
+	display: inline;<br>
+}<br><br>
+.w3-left {<br>
+	z-index: 1;<br>
+	position: relative;<br>
+top: -150px;<br>}<br><br>
+
+.w3-right {<br>
+	z-index: 1;<br>
+	position: relative;<br>
+	float: right;<br>
+top: -150px;<br>}<br><br>
+
+.w3-badge {<br>height:13px;width:13px;padding:0<br>}<br><br>
+
+.mySlides {<br>
+	border-radius: 10px;<br>
+}<br><br>
+
+.border {<br>
+	border: solid;<br>
+	border-color: rgb(175, 203, 174, 0.4);<br>
+	border-radius: 15px;<br>
+}<br><br>
+
+<h3> Javascript </h3>
+
+var myIndex = 0;<br>
+carousel();<br>
+
+function carousel() {<br>
+  var i;<br>
+  var x = document.getElementsByClassName("mySlides");<br>
+  for (i = 0; i < x.length; i++) {<br>
+    x[i].style.display = "none";  <br>
+  }<br>
+  myIndex++;<br>
+  if (myIndex > x.length) {myIndex = 1}    <br>
+  x[myIndex-1].style.display = "block";  <br>
+  setTimeout(carousel, 2000); // Change image every 2 seconds<br>
+}<br><br>
+
+
+<h2> <u>Overlay Menu</u></h2><br>
+<img src="images/overlay.png"><br>
+<h3> CSS </h3><br>
+.overlay {<br>
+  height: 100%;<br>
+  width: 0;<br>
+  position: fixed; <br>
+  z-index: 1; <br>
+  left: 0;<br>
+  top: 0;<br>
+  background-color: rgb(0,0,0); <br>
+  background-color: rgba(0,0,0, 0.9); <br>
+  overflow-x: hidden; <br>
+  transition: 0.5s; <br>
+}<br><br>
+
+
+.overlay-content {<br>
+  position: relative;<br>
+  top: 25%; <br>
+  width: 100%; <br>
+  text-align: center;<br>
+  margin-top: 30px; <br>
+}<br><br>
+
+
+.overlay a {<br>
+  padding: 8px;<br>
+  text-decoration: none;<br>
+  font-size: 36px;<br>
+  color: #818181;<br>
+  display: block; <br>
+  transition: 0.3s; <br>
+}<br><br>
+
+
+.overlay a:hover, .overlay a:focus {<br>
+  color: #f1f1f1;<br>
+}<br><br>
+
+
+.overlay .closebtn {<br>
+  position: absolute;<br>
+  top: 20px;<br>
+  right: 45px;<br>
+  font-size: 60px;<br>
+}<br><br>
+
+
+@media screen and (max-height: 450px) {<br>
+  .overlay a {font-size: 20px}<br>
+  .overlay .closebtn {<br>
+    font-size: 40px;<br>
+    top: 15px;<br>
+    right: 35px;<br>
+  }<br>
+}<br><br>
+
+<h3> Javascript </h3><br>
+
+
+function openNav() {<br>
+  document.getElementById("myNav").style.width = "100%";<br>
+}<br><br>
+
+
+function closeNav() {<br>
+  document.getElementById("myNav").style.width = "0%";<br>
+}<br><br>
+
+	</div>
+	
+	
+	</div>
+
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>
