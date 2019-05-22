@@ -6,6 +6,8 @@ p {
 	color: white;
 }
 
+* {font-family: Microsoft New Tai Lue; }
+
 .color1 {
 	background-color: #1D1D1B
 }
@@ -27,6 +29,7 @@ p {
 
 
 ul {
+	
 	float: left;
   list-style-type: none;
   margin: 15px;
