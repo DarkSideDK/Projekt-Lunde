@@ -15,6 +15,8 @@ function carousel() {
   setTimeout(carousel, 2000); // Change image every 2 seconds
 }
 
+
+
 /// Overlay Menu ///
 
 /* Open when someone clicks on the span element */
